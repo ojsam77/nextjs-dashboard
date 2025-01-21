@@ -102,7 +102,6 @@ import { invoices, customers, revenue, users } from '../lib/placeholder-data';
  }
 
 export async function GET() {
-  return ;
    try {
      await client.sql`BEGIN`;
      await seedUsers();
